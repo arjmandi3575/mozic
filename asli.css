@@ -7,10 +7,37 @@
         align-items: center;
     }
     .b{
-       
         margin-bottom: 2rem;
     }
     .c{
         margin-bottom: 2rem;
     }
+}
+@media(max-width: 650px){
+    .row{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+   
+}
+.icon{
+    display: flex;
+    justify-content: space-around !important;
+    flex-direction: row !important;
+}
+.like{
+    display: flex;
+    justify-content: center;
+    flex-direction: row !important;
+}
+.Visit{
+    display: flex;
+    justify-content: center;
+    flex-direction: row !important;
+}
+.card{
+ 
+    margin-bottom: 3px;
 }
